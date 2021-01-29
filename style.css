@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.main-div{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+.main-div ul{
+    background: white;
+    padding: 15px;
+}
+.main-div ul li{
+    display: inline-block;
+    margin-left: -1px;
+    background: #48dbfb;
+    padding: 10px;
+}
+.main-div ul li a{
+    text-decoration: none;
+    color: black;}
+.slider{
+    background: #48dbfb;
+    padding: 77px;
+    line-height: 45px;
+    color: white;
+    margin-top: -9px;
+}
+.slider h2{
+
+}
+.slider a{
+    color: #b5bdc5;
+    text-decoration: none;
+    background: rgb(246, 243, 243);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.menu-part{
+    background: rgb(244, 247, 248);
+    padding: 47px;
+}
+.transform{}
+.transform{
+    margin-top: 54px;
+    line-height: 30px;
+}
+.stap-1{
+    display: inline-block;
+    background: #000;
+    color: white;
+    padding: 3px 13px;
+    margin-right: 131px;
+    transition: .5s;
+}
+.stap-2{
+    display: inline-block;
+    background: black;
+    color: white;
+    margin-right: 20px;
+    padding: 3px 13px;
+    transition: .5s;
+}
+.stap-2:hover{
+    transform: scale(20px);
+    padding: 10px 25px;
+    background: rgb(14, 47, 233);
+    transition: .5s;
+    border-radius: 50%;
+}
+.stap-1:hover{
+    transform: rotate(-60deg);
+    transition: .5s;
+    background: rgb(13, 223, 93);
+    border-radius: 30px;
+}
+.stap-3{
+    display: inline-block;
+    background: #000;
+    color: white;
+    margin-left: 139px;
+    padding: 3px 12px;
+    transition: .5s;
+}
+.stap-3:hover{
+    transform: rotate(60deg);
+    transition: .5s;
+    background: red;
+    border-radius: 30px;
+}
+.botton{
+    background: #000;
+    color: white;
+    padding: 10px;
+}
